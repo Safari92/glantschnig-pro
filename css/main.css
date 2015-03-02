@@ -728,3 +728,7 @@ label.error {
   right: 25px;
   z-index: 9;
 }
+
+.footer-single a {
+  margin: 0 10px;
+}
