@@ -656,8 +656,20 @@ label.error {
   color: #fff;
 }
 
+.footer a:visited {
+  color: #fff;
+}
 .footer a:hover {
   color: #062033;
+}
+.left-align {
+  text-align: left;
+  padding-top: 20px;
+  list-style: circle;
+  padding-left: 20px;
+}
+.left-align li{
+  margin: 10px;
 }
 
 .footer h6 {
