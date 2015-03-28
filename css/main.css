@@ -83,7 +83,7 @@ body > section,
 }
 
 .sec-sub-title {
-	margin: 35px 0 45px;
+	margin: 35px 10px 45px;
 }
 
 .sec-sub-title p {
@@ -185,10 +185,6 @@ body > section,
 
 #slider {
 	padding: 0;
-}
-
-#slider .carousel-inner .item {
-  background-size: cover;
 }
 
 .carousel-caption {
@@ -553,7 +549,16 @@ top: -8px;
   margin-top: 15px;
   text-transform: uppercase;
 }
-
+.sec-sub-title p.normal-size {
+  font-weight: normal;
+  font-size: 12px;
+}
+.sec-sub-title p.normal-size a {
+  color: #337ab7;
+}
+.sec-sub-title p.normal-size a:hover {
+  text-decoration: underline;
+}
 
 /*=========================================
 	Contact Us
@@ -561,6 +566,12 @@ top: -8px;
 
 .contact {
 	padding-bottom: 0;
+}
+.contact a {
+  color: #337ab7;
+}
+.contact a:hover {
+  text-decoration: underline;
 }
 
 .contact-address h3 {
