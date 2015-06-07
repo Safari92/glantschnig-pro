@@ -8,6 +8,7 @@
     "start": "node src/app.js"
   },
   "dependencies": {
+    "hapi": "^8.6.1"
   },
   "engines": {
     "node": "0.10.x"
