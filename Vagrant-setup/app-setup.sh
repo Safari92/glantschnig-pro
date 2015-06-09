@@ -14,3 +14,5 @@ enabled=1
 EOL
 
 yum -y install mongodb-org mongodb-org-server
+
+service mongod start
