@@ -5,8 +5,6 @@ set -e
 yum install -y epel-release git-core
 yum install -y nodejs npm
 
-sudo yum install -y mongodb-org
-
 cat > /etc/yum.repos.d/mongodb.repo << EOL
 [mongodb]
 name=MongoDB Repository
