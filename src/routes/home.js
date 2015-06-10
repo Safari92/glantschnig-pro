@@ -1,5 +1,5 @@
 var server = require('../app');
-var homeController = require('../controller/homeController');
+var homeController = require('../controllers/homeController');
 
 server.route({
   method: 'GET',

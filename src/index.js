@@ -4,16 +4,17 @@
  * Entry point of the application
  *
  */
-
+var mongoose = require('mongoose');
 var server = require('./app');
 var routes = require('./routes');
+var User = require('./schema/user');
 
-var MongoClient = require('mongodb').MongoClient;
-var assert = require('assert');
+mongoose.connect('mongodb://localhost/my_database');
 
-var url = 'mongodb://localhost:27017/test';
-MongoClient.connect(url, function(err, db) {
-  assert.equal(null, err);
-  console.log("Connected correctly to server.");
-  db.close();
+// get all the users
+User.find({}, function(err, users) {
+  if (err) throw err;
+
+  // object of all the users
+  console.log(users);
 });

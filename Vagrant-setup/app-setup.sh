@@ -6,8 +6,8 @@ yum install -y epel-release git-core
 yum install -y nodejs npm
 
 cat > /etc/yum.repos.d/mongodb.repo << EOL
-[mongodb]
-name=MongoDB Repository
+[mongodb-org-2.6]
+name=MongoDB 2.6 Repository
 baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/
 gpgcheck=0
 enabled=1
