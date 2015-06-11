@@ -80,3 +80,7 @@ crashlytics-build.properties
 
 ### Vagrant ###
 .vagrant/
+
+# exclude all js files
+*.js
+*.map

@@ -1,3 +1,4 @@
+/// <reference path="../typings/node/node.d.ts" />
 /**
  * initializing the Server Instance
  */

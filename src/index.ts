@@ -1,3 +1,5 @@
+/// <reference path="../typings/node/node.d.ts" />
+/// <reference path="../typings/mongoose/mongoose.d.ts" />
 /**
  * glantschnig.pro
  *

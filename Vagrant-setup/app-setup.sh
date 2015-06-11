@@ -4,6 +4,7 @@ set -e
 # System Setup
 yum install -y epel-release git-core
 yum install -y nodejs npm
+npm install tsd -g
 
 cat > /etc/yum.repos.d/mongodb.repo << EOL
 [mongodb-org-2.6]
