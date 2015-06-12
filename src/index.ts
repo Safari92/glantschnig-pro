@@ -10,6 +10,7 @@ var mongoose = require('mongoose');
 var server = require('./app');
 var routes = require('./routes');
 var User = require('./schema/user');
+var Article = require('./schema/article');
 
 mongoose.connect('mongodb://localhost/my_database');
 
@@ -20,3 +21,11 @@ User.find({}, function(err, users) {
   // object of all the users
   console.log(users);
 });
+
+Article.create({
+  title: 'Blooom',
+  author: 'Christopher',
+  body: 'alksdfjaösf'
+}, function(err, _article) {
+  console.log(_article);
+})
